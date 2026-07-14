@@ -10,6 +10,7 @@ public class CartTest {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
         System.out.println("###I am in cart page###");
+        System.out.println("###I am in new page###");
     }
     @When("add product to cart")
     public void add_product_to_cart() {
