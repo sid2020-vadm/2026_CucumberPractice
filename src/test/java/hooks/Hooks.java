@@ -12,7 +12,7 @@ public class Hooks {
             System.out.println("Runs only once");
 
             // initialization
-            System.out.println("#####initialization######### ");
+            //System.out.println("#####initialization######### ");
             initialized = true;
         }
     }
