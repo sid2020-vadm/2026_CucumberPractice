@@ -18,10 +18,10 @@ public class Hooks {
         }
     }
 
-//    @After
-//    public void afterHooks(Scenario scenario) {
-//        System.out.println("After Hooks --> "+scenario.getName());
-//    }
+    @After
+    public void afterHooks(Scenario scenario) {
+        System.out.println("After Hooks --> "+scenario.getName());
+    }
 
 //    @Before("@UPIFeature")
 //    public void beforeScenarioSample1(Scenario scenario) {
