@@ -13,7 +13,6 @@ public class Hooks {
 
             // initialization
             System.out.println("initialization");
-            System.out.println("#####initialization######### ");
             initialized = true;
         }
     }
